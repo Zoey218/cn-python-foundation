@@ -19,4 +19,7 @@ with open('calls.csv', 'r') as f:
 "First record of texts, <incoming number> texts <answering number> at time <time>"
 "Last record of calls, <incoming number> calls <answering number> at time <time>, lasting <during> seconds"
 """
-
+first_text = texts[0]
+print ("First record of texts, <incoming number> " + first_text + "<answering number> at time <time> ")
+last_call = calls[-1]
+print ("Last record of calls, <incoming number> " + last_call + "<answering number> at time, lasting <during> seconds ") 
