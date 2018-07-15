@@ -17,3 +17,6 @@ with open('calls.csv', 'r') as f:
 短信和通话记录中一共有多少电话号码？每个号码只统计一次。
 输出信息：
 "There are <count> different telephone numbers in the records.""""
+unique_num = set(texts).union(calls)
+count = len(unique_num)
+print("There are {} different telephone numbers in the records.".format(count))
