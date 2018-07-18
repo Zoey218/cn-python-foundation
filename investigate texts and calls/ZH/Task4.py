@@ -25,4 +25,6 @@ with open('calls.csv', 'r') as f:
 <list of numbers>
 电话号码不能重复，每行打印一条，按字典顺序排序后输出。
 """
-
+tele_nums = calls[0]
+unique_nums = set(tele_nums)
+print(uinque_nums)
