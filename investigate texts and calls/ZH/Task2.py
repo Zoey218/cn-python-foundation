@@ -22,4 +22,6 @@ September 2016.".
 如果键已经存在于字典内，为键所对应的值加上对应数值；
 如果键不存在于字典内，将此键加入字典，并将它的值设为给定值。
 """
-
+dic = {tele_num1: total_time1, tele_num2: total_time2,.......,tele_num: total_time}
+for key, value in d.items():
+    print max(d, key=d.get)
