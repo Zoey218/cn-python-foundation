@@ -29,7 +29,8 @@ with open('calls.csv', 'r') as f:
 "The numbers called by people in Bangalore have codes:"
  <list of codes>
 代号不能重复，每行打印一条，按字典顺序排序后输出。
-
+dic = {(080): value1, (080): value2, (080): value3.....,(080): values}
+sorted(d.items()),key=lambda item:item[])
 第二部分: 由班加罗尔固话打往班加罗尔的电话所占比例是多少？
 换句话说，所有由（080）开头的号码拨出的通话中，
 打往由（080）开头的号码所占的比例是多少？
