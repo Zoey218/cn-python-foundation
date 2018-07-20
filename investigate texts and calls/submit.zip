@@ -1,0 +1,27 @@
+#task0
+first_text = {texts[0], texts[1], texts[2]}
+print("First record of texts, {} texts {} at time {}" .format(texts[1], texts[0], texts[2]))
+last_call = {calls[0], calls[1], calls[2], calls[3]}
+print("Last record of texts, {} calls {} at time {}, lasting {} seconds" .format(calls[1], calls[0], calls[2], calls[3]))
+
+
+#task1
+texts = list(reader)
+calls = list(reader)
+unique_num = set(texts).union(calls)
+print(count(unique_num))
+print("There are {} different telephone numbers inthe records." .format(count))
+
+#task2
+d = {calls[0][0]: calls[0][4], calls[1][0]: calls[1][4],....calls[5214][4]}
+print(max(d,key=d.get))
+
+#task3
+dic = {(080): value1, (080): value2, (080): value3.....,(080): values}
+    sorted(d.items()),key=lambda item:item[ ])
+    
+    
+#task4
+tele_nums = calls[0]
+unique_nums = set(tele_nums)
+print(uinque_nums)
