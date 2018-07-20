@@ -1,0 +1,5 @@
+texts = list(reader)
+calls = list(reader)
+unique_num = set(texts).union(calls)
+print(count(unique_num))
+print("There are {} different telephone numbers inthe records." .format(count))
